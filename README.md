@@ -15,6 +15,9 @@ These computer account metadata files are composed of a base64 string. This deco
 
 Decoded blob file contains a structure I called “PROVISION_DATA” which is composed of information about Domain Dns Policy, Domain Controller, miscelleneous information about the machine and so on.
 
+## registry
+Encoded data blob can also be retrived in the registry at the following magic key : “Software\Microsoft\Windows NT\CurrentVersion\UnattendSettings\Microsoft-Windows-UnattendedJoin\Identification”.
+
 ## Screenshots
 
 ![Screenshot](dinfo.png)
